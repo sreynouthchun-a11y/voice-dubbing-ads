@@ -11,7 +11,7 @@ body {
   color: #1f2937;
 }
 
-/* ===== Top bar (browser-like) ===== */
+/* ===== Top bar (browser-like, address hidden) ===== */
 .topbar {
   background: #ffffff;
   border-bottom: 1px solid #e5e7eb;
@@ -37,9 +37,7 @@ body {
   min-width: 0;
 }
 
-.logo {
-  font-size: 20px;
-}
+.logo { font-size: 20px; }
 
 .app-name {
   font-weight: 600;
@@ -169,13 +167,9 @@ body {
   transform: translateY(-1px);
 }
 
-.action-btn:active {
-  transform: translateY(0);
-}
+.action-btn:active { transform: translateY(0); }
 
-.mic {
-  font-size: 18px;
-}
+.mic { font-size: 18px; }
 
 /* ===== Script card ===== */
 .script-card {
@@ -196,9 +190,7 @@ body {
   margin-bottom: 16px;
 }
 
-.doc-icon {
-  font-size: 22px;
-}
+.doc-icon { font-size: 22px; }
 
 .script-title-kh {
   font-size: 15px;
@@ -252,9 +244,7 @@ body {
   align-items: start;
 }
 
-.table-row:last-child {
-  border-bottom: none;
-}
+.table-row:last-child { border-bottom: none; }
 
 .table-row .time {
   font-family: monospace;
@@ -271,6 +261,14 @@ body {
   line-height: 1.5;
 }
 
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  color: #6b7280;
+  font-size: 12px;
+  padding: 8px 16px 24px;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
   .table-head,
@@ -278,10 +276,6 @@ body {
     grid-template-columns: 70px 70px 50px 1fr;
     font-size: 12px;
   }
-  .blue-title h1 {
-    font-size: 18px;
-  }
-  .app-name {
-    display: none;
-  }
+  .blue-title h1 { font-size: 18px; }
+  .app-name { display: none; }
 }

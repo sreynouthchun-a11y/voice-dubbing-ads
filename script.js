@@ -1,7 +1,7 @@
 // Simple interactivity for the demo buttons
 const buttons = {
-  btnMale: 'សំឡេងប្រុស [M] បានចាប់ផ្តើម...',
-  btnFemale: 'សំឡេងស្ត្រី [F] បានចាប់ផ្តើម...',
+  btnMale: 'សំឡេងប្រុស [M] កំពុងដំណើរការ...',
+  btnFemale: 'សំឡេងស្ត្រី [F] កំពុងដំណើរការ...',
   btnSync: 'Auto Sync កំពុងដំណើរការ...',
 };
 
