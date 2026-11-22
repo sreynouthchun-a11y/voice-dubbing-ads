@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Dubbing Auto Voice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top bar mimicking a browser header, with the Hugging Face address hidden -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <span class="logo">🎙️</span>
+        <span class="app-name">Voice Dubbing Ads</span>
+      </div>
+      <div class="address-pill" title="Address hidden">
+        <span class="lock">🔒</span>
+        <span class="address-text">••••••••••••••••••••••••••</span>
+      </div>
+      <div class="topbar-right">
+        <span class="icon-btn">⋮</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="container">
+    <!-- Blue card -->
+    <section class="blue-card">
+      <div class="blue-card-header">
+        <div class="blue-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" y1="10" x2="4" y2="14"/>
+            <line x1="8" y1="6" x2="8" y2="18"/>
+            <line x1="12" y1="3" x2="12" y2="21"/>
+            <line x1="16" y1="6" x2="16" y2="18"/>
+            <line x1="20" y1="10" x2="20" y2="14"/>
+          </svg>
+        </div>
+        <div class="blue-title">
+          <h1>AI Dubbing Auto Voice</h1>
+          <p><span class="dot"></span> High-Speed Khmer Dubbing (Up to 10+ Mins)</p>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="btn-group">
+        <button class="action-btn" id="btnMale">
+          <span class="mic">🎤</span>
+          <span>សំឡេងប្រុស [M]</span>
+        </button>
+        <button class="action-btn" id="btnFemale">
+          <span class="mic">🎤</span>
+          <span>សំឡេងស្ត្រី [F]</span>
+        </button>
+        <button class="action-btn" id="btnSync">
+          <span class="mic">⚡</span>
+          <span>Auto Sync គុណភាពខ្ពស់</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Script card -->
+    <section class="script-card">
+      <div class="script-header">
+        <span class="doc-icon">📄</span>
+        <div class="script-title">
+          <div class="script-title-kh">បញ្ជាក់អត្ថបទ</div>
+          <div class="script-title-en">Script (Gemini Format)</div>
+        </div>
+      </div>
+
+      <div class="time-range">00:00.00 - 10:00.00+</div>
+
+      <div class="script-table">
+        <div class="table-head">
+          <span>START</span>
+          <span>END</span>
+          <span>SPEAKER</span>
+          <span>TRANSLATE KHMER</span>
+        </div>
+        <div class="table-row">
+          <span class="time">00:00.00</span>
+          <span class="time">00:02.80</span>
+          <span class="speaker">[M]</span>
+          <span class="text">សូមស្វាគមន៍មកកាន់ ក្រុមហ៊ុនយើងខ្ញុំ</span>
+        </div>
+        <div class="table-row">
+          <span class="time">00:02.80</span>
+          <span class="time">00:05.50</span>
+          <span class="speaker">[F]</span>
+          <span class="text">ចូរស្វែងយល់បន្ថែមអំពីសេវាកម្មរបស់យើង</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
